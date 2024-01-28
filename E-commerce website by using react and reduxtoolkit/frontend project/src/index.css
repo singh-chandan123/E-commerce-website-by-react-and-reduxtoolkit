@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo{
+  margin-left: 10px;
+  height: 13px;
+  /* font-weight: 1000px; */
+  margin-right: 30px;
+}
+.homelink{
+  margin-right:30px ;
+  color: black;
+}
+.homelink:hover{
+  color: blue;
+  font-size: 18px;
+}
+.cartlink{
+  margin-right:500px ;
+  color: black;
+}
+.cartlink:hover{
+  color: blue;
+  font-size: 18px;
+}
+.cartitem{
+  height: 13px;
+  font-weight: 700;
+}
+.cartitem:hover{
+  color: blue;
+  font-size: 18px;
+}
+.homeheading{
+  text-align: center;
+}
+.product-heading{
+  text-align: center;
+}
+.home{
+  background-color: aquamarine;
+}
+.image{
+  width: 100px;
+  height: 100px;
+  background-position: cover;
+
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.allproduct{
+  margin-left: 23px;
+  background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+ border-radius: 10px;
+}
+.title{
+width: 150px;
+text-align: center;
+}
+.add{
+  width: 120px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: blue;
+  color: white;
+border: none;
+cursor: pointer;
+}
+.navbar{
+  background-color:aquamarine;
+}
+.Cartclass{
+background-color: aquamarine;
+padding-bottom: 30px;
+}
+.Cartproduct{
+  text-align: center;
+}
+.selectprod{
+  display: flex;
+  margin-left: 30px;
+  background-color: white;
+  margin-bottom: 20px;
+ justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.selectimage{
+width: 100px;
+height: 80px;
+background-position: cover;
+margin-right: 100px;
+}
+.producttitle{
+  margin-right: 100px;
+}
+.productprice{
+  margin-right: 200px;
+}
+.heading{
+  text-align: center;
+}
